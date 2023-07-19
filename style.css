@@ -10,6 +10,160 @@ h3{
     font-weight: 700;
     font-size: 20px;
 }
+
+/* hover css style */
+.onmg1:hover .hover1{
+    visibility: visible;
+}
+.onmg1:hover {
+    border: 4px solid #FF42A5;
+    border-radius: 15px;
+}
+.onmg2:hover .hover2{
+    visibility: visible;
+}
+.onmg2:hover{
+    border: 4px solid #FF42A5;
+    border-radius: 15px;
+}
+.onmg3:hover .hover3{
+    visibility: visible;
+}
+.onmg3:hover{
+    border: 4px solid #FF42A5;
+    border-radius: 15px;
+}
+.onmg4:hover .hover4{
+    visibility: visible;
+}
+.onmg4:hover {
+    border: 4px solid #FF42A5;
+    border-radius: 15px;
+}
+.hover1{
+    width: 255px;
+    height: 288px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F948B2;
+    border-radius: 15px;
+    right: 57.5rem;
+    top: 49rem;
+    opacity: .6;
+    cursor: pointer;
+    visibility: hidden;
+}
+.hover2{
+    width: 255px;
+    height: 288px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F948B2;
+    border-radius: 15px;
+    right: 41rem;
+    top: 49rem;
+    opacity: .6;
+    cursor: pointer;
+    visibility: hidden;
+}
+.hover3{
+    width: 255px;
+    height: 288px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F948B2;
+    border-radius: 15px;
+    right: 24rem;
+    top: 49rem;
+    opacity: .6;
+    cursor: pointer;
+    visibility: hidden;
+}
+.hover4{
+    width: 255px;
+    height: 288px;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F948B2;
+    border-radius: 15px;
+    right: 7.2rem;
+    top: 49rem;
+    opacity: .6;
+    cursor: pointer;
+    visibility: hidden;
+}
+/* hover of button */
+.btnscn1:hover{
+    border: 2px solid #FF42A5;  
+}
+.btnscn1:hover span{
+    color: #FF42A5;
+}
+.btnscn2:hover{
+    border: 2px solid #FF42A5;  
+}
+.btnscn2:hover span{
+    color: #FF42A5;
+}
+.btnscn3:hover{
+    border: 2px solid #FF42A5;  
+}
+.btnscn3:hover span{
+    color: #FF42A5;
+}
+.btnscn4:hover{
+    border: 2px solid #FF42A5;  
+}
+.btnscn4:hover span{
+    color: #FF42A5;
+}
+.btnscn5:hover{
+    border: 2px solid #FF42A5;  
+}
+.btnscn5:hover span{
+    color: #FF42A5;
+}
+.btnscn6:hover{
+    border: 2px solid #FF42A5;  
+}
+.btnscn6:hover span{
+    color: #FF42A5;
+}
+.btnscn7:hover{
+    border: 2px solid #FF42A5;  
+}
+.btnscn7:hover span{
+    color: #FF42A5;
+}
+.btnscn8:hover{
+    border: 2px solid #FF42A5;  
+}
+.btnscn8:hover span{
+    color: #FF42A5;
+}
+.btnscn9:hover{
+    border: 2px solid #FF42A5;  
+}
+.btnscn9:hover span{
+    color: #FF42A5;
+}
+
 /* navigation bar style */
 .nav{
     display: flex;
@@ -60,10 +214,14 @@ nav a{
     height: 28px;
     width: 160px;
     padding-top: 10px;
+    padding-left: 5px;
     margin-top: 1.5rem;
     margin-left: 1rem;
 }
 /* banner section style */
+body{
+    margin: auto;
+}
 .bannersec{
     display: flex;
     justify-content: space-between;
@@ -71,7 +229,6 @@ nav a{
 }
 .ban1{
     background-image: url("./images/Group\ 14.png");
-    height: 35rem;
     width: 40rem;
     background-size: contain;
     padding-top: 9rem;
@@ -96,7 +253,7 @@ nav a{
     -webkit-text-fill-color: transparent;
 }
 .ban2 img{
-    height: 33rem;
+    /* height: 33rem; */
     width: 35rem;
 }
 .btn1{
@@ -252,7 +409,6 @@ nav a{
     flex-wrap: wrap;
     gap: 1.5rem;
     padding-top: 4rem;
-    padding-right: 3rem;
     padding-bottom: 4rem;
     width: 100%;
     justify-content: center;
@@ -352,7 +508,6 @@ height: 30rem;
 /* Mobile Responsive css style */
 @media screen and (max-width: 576px) {
 
- 
     /* navbar responsive style */
     body{
         margin: 0px;
@@ -438,5 +593,87 @@ height: 30rem;
     justify-content: center;
     align-items: center;
 }
+.footlink{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 95%;
+}
+.footlink a{
+    padding-left: 0rem;
+}
+.footicon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+.footicon a{
+    width: 2rem;
+    padding: 2rem 0 0 .5rem;
+}
+.terns{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+    padding-top: 1rem;
+}
+.terns a{
+    padding-top: 1rem;
+}
+.copywright{
+    display: flex;
+    justify-content: center;
+}
+}
 
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    *{
+        width: 100%
+    }
+    .nav{
+        width: 54rem;
+    }
+    .follow{
+        height: 2.5rem;
+        width: 10rem;
+        display: flex;
+    }
+    header{
+        width: 55rem;
+    }
+ .bannersec{
+    width: 100%;
+ }
+ .ban1{
+    padding-top: 5rem;
+    padding-left: 3.75rem;
+    padding-right: 1.25rem;
+ }
+ .online{
+    width: 55rem;
+ }
+ .onlinetext{
+    width: 55rem;
+ }
+ .onmg1, .onmg2, .onmg3, .onmg4{
+    padding-top: 13rem;
+ }
+ .playinst{
+    margin-top: 3rem;
+    width: 55rem;
+ }
+ .optscn{
+    width: 57rem;
+ }
+ .footer{
+    width: 57rem;
+ }
+ .logo2{
+    padding-left: 23.75rem;
+    width: 20rem;
+    justify-content: center;
+    align-content: center;
+ }
 }
