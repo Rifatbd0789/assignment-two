@@ -250,23 +250,24 @@ nav a{
 .optscn{
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding-top: 3rem;
+    gap: 1.5rem;
+    padding-top: 4rem;
     padding-right: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     width: 100%;
     justify-content: center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     text-align: center;
 }
 .optscn img{
-    height: 40px;
+    height: 30px;
     width: 30px;
     vertical-align: middle;
 }
 .optscn button{
     border: none;
     width: 195px;
+    height: 50px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #FFF;
@@ -284,7 +285,68 @@ nav a{
     line-height: normal;
     padding-bottom: 2px;
 }
-
+/* footer section css style */
+.footer{
+justify-content: center;
+border: 1px solid black;
+background: #0B0223;
+height: 30rem;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.footer img{
+    width: 4rem;
+    height: 2rem;
+    padding-top: 1rem;
+    justify-content: center;
+    padding-right: 0.75rem;
+}
+.txt2{
+    color: #FFF;
+}
+.footlink{
+    text-align: center;
+    padding-top: 2rem;
+}
+.footlink a{
+    padding-left: 4rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footicon {
+    display: flex;
+    justify-content: center;
+}
+.footicon a{
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+.terns{
+    display: flex;
+    justify-content: center;
+}
+.terns a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    padding-left: 3rem;
+    padding-top: 6rem;
+    font-size: 10px;
+    font-weight: 500;
+}
+.copywright{
+    padding-top: 2rem;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+}
 
 
 /* Mobile Responsive css style */
