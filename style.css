@@ -19,6 +19,11 @@ h3{
     justify-content:space-around;
     /* border: 2px solid black; */
 }
+.nav h3{
+    margin-top: 1rem;
+    font-size: 30px;
+    font-weight: 700;
+}
 .nav img{
     width: 4rem;
     height: 2rem;
@@ -40,8 +45,14 @@ h3{
     vertical-align: middle;
 }
 nav li{
+    
     display: flex;
     margin-left: 2rem;
+    text-decoration: none;
+}
+nav a{
+    color: black;
+    text-decoration: none;
 }
 .follow{
     background-color: rgba(11, 2, 35, 0.10);
@@ -63,25 +74,86 @@ nav li{
     height: 35rem;
     width: 40rem;
     background-size: contain;
+    padding-top: 9rem;
+    padding-left: 9rem;
+}
+.ban1 h2{
+    color: #0B0223;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0rem;
+}
+.ban1 h1{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-size: 75px;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .ban2 img{
     height: 33rem;
     width: 35rem;
 }
+.btn1{
+    margin-top: 1rem;
+    border: none;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 12px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+.btn2{
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 12px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
 
+@media screen and (max-width: 576px) {
 
-@media screen and (max-width: 450px) {
+    /* navbar responsive style */
     .nav, 
     .navlist,
     .navul{
-        margin-top: 1px;
+
         flex-direction: column;
     }
     .nav{
         align-items: center;
     }
     .logo{
-        margin-top: 100%;
+        margin-top: 10rem;
+    }
+    /* banner responsive style */
+    .bannersec{
+        margin-top: 50%;
+        flex-direction: column-reverse;
+    }
+    .ban2 img{
+        width: 100%;
+    }
+    .ban1{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        width: 100%;
     }
 
 }
