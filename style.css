@@ -190,11 +190,67 @@ nav a{
     background-size: contain;
     padding-top: 18rem;
 }
+/* play instantly part css */
+.playinst{
+    display: flex;
+    width: 85%;
+    margin-top: 5rem;
+    justify-content: space-between;
+    height: 250px;
+}
 
+
+.playimg{
+    width: 635px;
+    height: 650px;
+    position: relative;
+    background-image: url("./images/Rectangle\ 55.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.playimg img{
+    height: 250px;
+    width: 210px;
+    position: relative;
+    right: 7rem;
+    padding-top: 20rem;
+}
+
+.playtx{
+    height: 28rem;
+    width: 35rem;
+    text-align: end;
+    padding-top: 150px;
+    padding-right: 150px;
+ 
+}
+.playtx h1{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+.playh1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.playtx p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
 
 
 @media screen and (max-width: 576px) {
 
+ 
     /* navbar responsive style */
     body{
         margin: 0px;
@@ -229,8 +285,34 @@ nav a{
         flex-direction: column;
         margin-left: 4rem;
     }
+    .onlinetext p{
+        font-size: 12px;
+        margin-right: 0px;
+        flex-wrap: wrap;
+    }
    .onlineh1, .fun{
         font-size: 25px;
+   }
+   /* play instantly responsive */
+   .playinst{
+    flex-direction: column;
+   }
+   .playtx, .playtx p{
+    width: 100%;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+   }
+   .playimg{
+    width: 80%;
+    justify-content: center;
+    margin-left: 5rem;
+   }
+   .playimg img{
+    height: 120px;
+    width: 100px;
+    bottom: 100px;
+    right: 50px;
    }
 
 }
