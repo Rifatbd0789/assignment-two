@@ -127,9 +127,78 @@ nav a{
     line-height: normal;
 }
 
+.online{
+    width: 100%;
+    text-align: center;
+}
+
+.onlineh1{
+    color: #0B0223;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.fun{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.onlineimg{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    margin-left: 5rem;
+    text-align: start;
+    margin-top: 3rem;
+}
+
+.onmg1{
+    width: 250px;
+    background: url("./images/Rectangle\ 4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 18rem;
+    
+}
+.onmg2{
+    width: 250px;
+    background: url("./images/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 18rem;
+}
+.onmg3{
+    width: 250px;
+    background: url("./images/Rectangle\ 7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 18rem;
+}
+
+.onmg4{
+    width: 250px;
+    background: url("./images/Rectangle\ 6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 18rem;
+}
+
+
+
 @media screen and (max-width: 576px) {
 
     /* navbar responsive style */
+    body{
+        margin: 0px;
+    }
     .nav, 
     .navlist,
     .navul{
@@ -154,6 +223,14 @@ nav a{
         padding-left: 2rem;
         padding-top: 2rem;
         width: 100%;
+        height: 24rem;
     }
+    .onlineimg{
+        flex-direction: column;
+        margin-left: 4rem;
+    }
+   .onlineh1, .fun{
+        font-size: 25px;
+   }
 
 }
