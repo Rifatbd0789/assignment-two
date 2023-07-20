@@ -111,54 +111,63 @@ h3{
 /* hover of button */
 .btnscn1:hover{
     border: 2px solid #FF42A5;  
+    cursor: pointer;
 }
 .btnscn1:hover span{
     color: #FF42A5;
 }
 .btnscn2:hover{
     border: 2px solid #FF42A5;  
+    cursor: pointer;
 }
 .btnscn2:hover span{
     color: #FF42A5;
 }
 .btnscn3:hover{
     border: 2px solid #FF42A5;  
+    cursor: pointer;
 }
 .btnscn3:hover span{
     color: #FF42A5;
 }
 .btnscn4:hover{
     border: 2px solid #FF42A5;  
+    cursor: pointer;
 }
 .btnscn4:hover span{
     color: #FF42A5;
 }
 .btnscn5:hover{
     border: 2px solid #FF42A5;  
+    cursor: pointer;
 }
 .btnscn5:hover span{
     color: #FF42A5;
 }
 .btnscn6:hover{
     border: 2px solid #FF42A5;  
+    cursor: pointer;
 }
 .btnscn6:hover span{
     color: #FF42A5;
 }
 .btnscn7:hover{
     border: 2px solid #FF42A5;  
+    cursor: pointer;
 }
 .btnscn7:hover span{
     color: #FF42A5;
 }
 .btnscn8:hover{
     border: 2px solid #FF42A5;  
+    cursor: pointer;
 }
 .btnscn8:hover span{
     color: #FF42A5;
 }
 .btnscn9:hover{
     border: 2px solid #FF42A5;  
+    cursor: pointer;
 }
 .btnscn9:hover span{
     color: #FF42A5;
@@ -587,11 +596,16 @@ height: 30rem;
 }
 .optscn{
     padding-left: 1rem;
-    width: 85%;
+    width: 26rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
+}
+/* footer section mobile view css style */
+
+.footer{
+    width: 26rem;
 }
 .footlink{
     display: grid;
@@ -625,19 +639,20 @@ height: 30rem;
 .copywright{
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
 }
 }
-
+/* Tablet view css style */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    *{
+    /* *{
         width: 100%
-    }
+    } */
     .nav{
         width: 54rem;
     }
     .follow{
-        height: 2.5rem;
-        width: 10rem;
+        /* height: 2.5rem;
+        width: 10rem; */
         display: flex;
     }
     header{
@@ -671,7 +686,7 @@ height: 30rem;
     width: 57rem;
  }
  .logo2{
-    padding-left: 23.75rem;
+    padding-left: 19rem;
     width: 20rem;
     justify-content: center;
     align-content: center;
